@@ -21,7 +21,7 @@ public class VersionMirrorer {
 
 
 	public static void main(String[] args) {
-		log("VersionMirrorer v1.0.8 by Moresteck & DireMaster (2020-07-02) fired up!");
+		log("VersionMirrorer v1.0.10 by Moresteck & DireMaster (2020-07-02) fired up!");
 		CheckMojiraThread.lastMojiraJEcontent = getProperty(operating, "lastMojiraJEcontent");
 		String[] read = read(new File("mirrorer/meta/", "latest-version_manifest.txt"));
 		if (read.length > 0) {
